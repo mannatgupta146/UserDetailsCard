@@ -1,0 +1,42 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    word-wrap: break-word;
+    min-height: 200px;
+}
+
+.name {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px 16px;
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+}
+
+.body div {
+    font-size: 1em;
+    color: #666;
+    white-space: normal;
+    overflow: visible;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
