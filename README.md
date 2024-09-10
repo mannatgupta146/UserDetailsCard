@@ -17,7 +17,7 @@ To use the User Card component in your React project, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone 
+    git clone https://github.com/mannatgupta146/UserDetailsCard.git
     ```
 
 2. **Navigate to the project directory:**
@@ -114,3 +114,40 @@ Ensure you include the CSS file (`user.css`) to style the `UserCard` component:
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
 }
+```
+### Customization
+
+The `UserCard` component accepts the following props:
+
+- `name` (string): The user's name.
+- `dob` (string): The user's date of birth.
+- `age` (number): The user's age.
+- `profession` (string): The user's profession.
+- `phoneNumber` (string): The user's phone number.
+- `email` (string): The user's email address.
+
+You can also customize the appearance of the `UserCard` component by overriding the default CSS styles. Simply create a new CSS file, override the class names defined in `user.css`, and import it after the original CSS file:
+
+```css
+/* custom-user.css */
+.card {
+    border-color: #007bff; /* Change border color */
+    background-color: #f8f9fa; /* Change background color */
+}
+
+.name {
+    color: #007bff; /* Change text color */
+}
+```
+### Contributing
+
+We welcome contributions to enhance the `UserCard` component. To contribute:
+
+1. **Fork the repository** and create a new branch for your feature or bug fix.
+2. **Make your changes** and ensure they are well-documented and tested.
+3. **Submit a pull request** with a clear description of your changes and why they should be merged.
+
+Please follow the [code of conduct](CODE_OF_CONDUCT.md) to maintain a positive and collaborative environment.
+
+
+
